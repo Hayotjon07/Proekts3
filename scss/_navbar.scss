@@ -1,0 +1,56 @@
+.navbar{
+    height: 56px;
+    background: var(--Background-Color, #212121);
+    display: flex;
+    
+    &_content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_box{
+        width: 169px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        gap: 27px;
+        padding: 8px 0px 14px 0px;
+    }
+    &_research{
+        width: 470px;
+        height: 56px;
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+    &_research2{
+        width: 425px;
+        height: 43px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        background: #303030;
+        padding-left: 1px;
+    }
+    
+    &_input{
+        width: 362px;
+        height: 40px;
+        padding: 0px 8px;
+        border-radius: 2px 0px 0px 2px;
+background: #121212;
+outline: none;
+border: none;
+color: #fff;
+    }
+    &_profile{
+        display: flex;
+        width: 204px;
+height: 56px;
+align-items: center;
+gap: 20px;
+    }
+    &_user{
+    border-radius: 50%;
+}
+}
